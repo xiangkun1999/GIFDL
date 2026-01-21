@@ -4,7 +4,8 @@ Overall workflow:
 
 1. Train the generative model (Train)
 2. Generate embedding costs and perform embedding (Test)
-3. The pretrained model `netG_epoch__72.pth` can be downloaded by \url{https://pan.ustc.edu.cn/share/index/fe24fc3d7d1241e48e29}
+3. The pretrained model `netG_epoch__72.pth` can be downloaded by [pth](https://pan.ustc.edu.cn/share/index/fe24fc3d7d1241e48e29)
+
 
 ---
 
@@ -99,4 +100,5 @@ After execution, the final stego images will be generated in:
 2. The image resolution used in training and testing must be consistent (default: 512×512 grayscale images).
 
 3. You may need to modify the paths in `train_gifdl.py` and `generate_cost.py` t
+
 
