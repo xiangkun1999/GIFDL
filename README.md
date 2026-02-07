@@ -99,6 +99,18 @@ After execution, the final stego images will be generated in:
 
 2. The image resolution used in training and testing must be consistent (default: 512×512 grayscale images).
 
-3. You may need to modify the paths in `train_gifdl.py` and `generate_cost.py` t
+3. You may need to modify the paths in `train_gifdl.py` and `generate_cost.py`
+
+## Citation
+If you find this work useful, please consider citing:
+```
+@inproceedings{GIFDL2025,
+  title     = {GIFDL: Generated Image Fluctuation Distortion Learning for Enhancing Steganographic Security},
+  author    = {Wang, Xiangkun and Chen, Kejiang and Qi, Yuang and Liu, Ruiheng and Zhang, Weiming and Yu, Nenghai},
+  booktitle = {IEEE Transactions on Information Forensics and Security},
+  year      = {2025}
+}
+```
+
 
 
